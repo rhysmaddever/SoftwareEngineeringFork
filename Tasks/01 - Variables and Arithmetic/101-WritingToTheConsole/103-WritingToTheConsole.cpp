@@ -20,6 +20,7 @@ int main()
 
     // TASK(b) - Use printf to display the value of the variable area. Look at the lecture slides and find out how to limit this to 3 decimal places
     // Write solution here
+    printf("The area = %.4f\n", area);
     
     //
 
@@ -30,8 +31,12 @@ int main()
 
     // TASK(c) - using printf, display the radius and the area using a single printf statement
     // Write solution here
+    printf("Radius = %.2f Area = %.4f", radius, area);
 
-    //
+    // % this starts the placeholder and tells printf that a value is being inserted
+    // . this indicates that you are about to define the precision (how many decimal places)
+    // 4 this specifies the number of decimal places (precision)
+    // f this tells printf that the value being inserted is a floating point number
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
